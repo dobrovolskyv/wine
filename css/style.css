@@ -1,0 +1,72 @@
+body {
+  font-family: "Aleo", serif;
+  font-size: 20px;
+  background-image: url(../img/wine_wallpapper.jpg);
+  background-size: cover;
+}
+
+.title {
+  padding-top: 35px;
+  margin-right: -70px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  padding-left: 60px;
+  color: #fffdfd;
+}
+
+.nav > ul > li {
+  padding-right: 10px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  height: 100%;
+  padding-right: 153px;
+}
+
+.main_text {
+  padding-left: 78px;
+  margin-top: 200px;
+  font-size: 50px;
+  color: #fffdfd;
+  margin-bottom: 120px;
+}
+
+.recipe {
+  margin-top: 150px;
+  display: flex;
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+
+  /* margin-left: 50px; */
+
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+.rules {
+  font-size: 15px;
+  color: #fffdfd;
+  padding-left: 78px;
+  padding-right: 78px;
+}
+
+.footer {
+  font-size: 10px;
+  color: #fffdfd;
+  display: flex;
+  justify-content: center;
+}
