@@ -4,10 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wine and eats</title>
+    <title>Wine and food</title>
     <link rel=" preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
+   <script src="../js/main.js"></script>
 
 </head>
 
@@ -27,35 +28,39 @@
 
     </header>
     <section>
-        <div>
-            <p class="main_text">Сочетай.
+        <div class="main_text">
+            <p>Сочетай.
                 </br>Пробуй.
                 <br>Наслаждайся.</p>
         </div>
 
     </section>
     <section class="recipe">
-        <div>
+     
+        <div class="card">
             <img src="../img/pasta.png" alt="pasta">
+            <!-- <div class="pasta">
+                <h1>Pasta</h1>
+            </div> -->
         </div>
 
-        <div>
+        <div class="card">
             <img src="../img/breakfest.png" alt="breakfest">
         </div>
 
-        <div>
+        <div class="card"> 
             <img src="../img/wine.png" alt="wine">
         </div>
-
-        <div>
-            <img src="../img/pizza.png" alt="pizza">
+        
+        <div class="card">
+            <img src="../img/bakery.png" alt="bakery">
         </div>
 
-        <div>
+        <div class="card">
             <img src="../img/tapas.png" alt="tapas">
         </div>
 
-        <div>
+        <div class="card">
             <img src="../img/cocktail.png" alt="cocktail">
         </div>
 
@@ -103,7 +108,129 @@
 
     </section>
 
-    <section>
+    <section class="container" >
+        <h2 class="mixed">Галерея Сочетиния</h2>
+        <div class="slide_demo">
+            <div class="slide">
+                <img src="../img/slide_wine.jpg" alt="slide_wine" style='width: 60%'>
+                <div class="content">
+                    <div class="numbertext">1 / 7</div>
+                    <h1> Жирное мясо — танинное красное</h1>
+                    <p> Все просто. Чем более у нас жирная пища, тем более танинным и структурированным должно быть наше вино. С одной
+                        стороны,
+                        насыщенное вино подчеркнет вкус мяса. С другой — сытное и жирное блюдо смягчит мощный танин и облагородит вкус.
+                        С таким
+                        мясом отлично пойдет и, так называемое, оранжевое вино.</p>
+                </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide2.jpg" alt="slide2"
+                    style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">2 / 7</div>
+                        <h1>- Сладкое к сладкому</h1>
+                        <p>Главное не переборщить со сладостью десерта. Старайтесь сочетать пары так, чтобы вино было чуть слаще Вашего
+                        блюда. В
+                        противном случае, рискуете «потерять» ценность напитка. Как понять что вино окажется слаще? Просто не
+                        выбирайте
+                        приторные десерты. Пусть это будмут шоколадные маффины и бисквиты, фруктово-ореховые пироги.</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide3.jpg" alt="slide2" style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">3 / 7</div>
+                        <h1>- оль — кислотe</h1>
+                        <p>ГЧем более соленая пища, тем кислотнее должно быть Ваше вино. Дело в том, что восприятие кислотности и
+                        солености
+                        нейтрализуют друг друга — все просто! Пример: азиатская кухня и соевый соус отлично сочетаются с Рислингом,
+                        а пармезан —</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide4.jpg" alt="slide2" style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">4 / 7</div>
+                        <h1>- оль — кислотe</h1>
+                        <p>ГЧем более соленая пища, тем кислотнее должно быть Ваше вино. Дело в том, что восприятие кислотности и
+                            солености
+                            нейтрализуют друг друга — все просто! Пример: азиатская кухня и соевый соус отлично сочетаются с Рислингом,
+                            а пармезан —</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide5.jpg" alt="slide2" style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">5 / 7</div>
+                        <h1>- оль — кислотe</h1>
+                        <p>ГЧем более соленая пища, тем кислотнее должно быть Ваше вино. Дело в том, что восприятие кислотности и
+                            солености
+                            нейтрализуют друг друга — все просто! Пример: азиатская кухня и соевый соус отлично сочетаются с Рислингом,
+                            а пармезан —</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide6.jpg" alt="slide2" style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">6 / 7</div>
+                        <h1>- оль — кислотe</h1>
+                        <p>ГЧем более соленая пища, тем кислотнее должно быть Ваше вино. Дело в том, что восприятие кислотности и
+                            солености
+                            нейтрализуют друг друга — все просто! Пример: азиатская кухня и соевый соус отлично сочетаются с Рислингом,
+                            а пармезан —</p>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <img src="../img/slide7.jpg" alt="slide2" style='width: 60%'>
+                    <div class="content">
+                        <div class="numbertext">7 / 7</div>
+                        <h1>- оль — кислотe</h1>
+                        <p>ГЧем более соленая пища, тем кислотнее должно быть Ваше вино. Дело в том, что восприятие кислотности и
+                            солености
+                            нейтрализуют друг друга — все просто! Пример: азиатская кухня и соевый соус отлично сочетаются с Рислингом,
+                            а пармезан —</p>
+                    </div>
+                </div>
+
+         <a class="prev" onclick="plusSlides(-1)">❮</a>
+         <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide_wine.jpg" style="width: 30%" onclick="currentSlide(1)" alt="The Woods">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide2.jpg" style="width: 30%" onclick="currentSlide(2)" alt="Cinque Terre">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide3.jpg" style="width: 30%" onclick="currentSlide(3)"
+                        alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide4.jpg" style="width: 30%" onclick="currentSlide(4)"
+                        alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide5.jpg" style="width: 30%" onclick="currentSlide(5)"
+                        alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide6.jpg" style="width: 30%" onclick="currentSlide(6)" alt="Snowy Mountains">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="../img/slide7.jpg" style="width: 30%" onclick="currentSlide(7)" alt="Snowy Mountains">
+                </div>
+            </div>
 
     </section>
     <footer class="footer">
@@ -114,3 +241,8 @@
 </body>
 
 </html>
+
+
+
+
+      
